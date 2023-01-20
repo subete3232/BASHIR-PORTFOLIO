@@ -4,3 +4,15 @@ body{
 h1{
     font-size: 50px ;
 }
+.orange{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+}
