@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -19,7 +20,7 @@ section{
     width: 70%;
     padding-left: 15%;
 }
-.first-sec-button{
+.sec-button{
     text-decoration: none;
     color: white;
     font-weight: 700;
@@ -30,4 +31,9 @@ section{
 .first-sec{
     background-image: url(images/top-banner.png);
     /*background-repeat: no-repeat;*/
+}
+.sec2-background{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
