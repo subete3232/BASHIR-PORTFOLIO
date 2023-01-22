@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px ;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: orange;
 }
-section{
+.section-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -28,7 +31,7 @@ section{
     padding: 10px 40px;
     border-radius: 5px;
 }
-.first-sec{
+.sec1-background{
     background-image: url(images/top-banner.png);
     /*background-repeat: no-repeat;*/
 }
@@ -36,4 +39,40 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.sec3-background{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.alignment{
+    text-align: center;
+}
+.box-shadow{
+
+    text-align: justify;
+
+    box-shadow: 10px 10px 30px gray;
+    padding: 10px 50px 50px 70px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 10px;
+}
+.sec3-div1-margin{
+    padding-top: 30px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+#sec3-div2-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#sec3-div3-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
